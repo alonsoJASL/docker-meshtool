@@ -1,8 +1,7 @@
-# README 
+# QUICK START 
+> Call meshtool from docker. You need to have docker installed. 
 
-Call meshtool from docker. You need to have docker installed. 
-
-## Quick start 
+## Setup 
 Download this script to a folder, for example `/path/to/software`
 ```shell 
 cd /path/to/software 
@@ -14,6 +13,7 @@ anywhere:
 sudo ln -s /path/to/software/docker-meshtool/docker-meshtool.sh /usr/local/bin/docker-meshtool 
 ```
 
+## Run 
 Once you finish, run script the following way: 
 ``` shell
 docker-meshtool /path/to/data COMMAND [OPTIONS] [PARAMETERS]
